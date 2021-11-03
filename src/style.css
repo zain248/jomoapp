@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid; */
+}
+.sectionNav
+{
+    background-color: #F9F9F9;
+    position: relative;
+    /* overflow: hidden; */
+    /* width: 100%; */
+}
+.RowsectionNav
+{
+    position: relative;
+    /* border: 1px solid; */
+    /* height: 5vh; */
+    left: 150%;
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    font-size: 13px;
+}
+@keyframes slide {
+    from{
+        left: 100%;
+    }
+    to{
+        left: -100%;
+    }
+}
+.ovr
+{
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+.RowsectionNav>p
+{
+    white-space: nowrap;
+}
+
+.logo
+{
+    font-size: 35px;
+    color: #BFD730 !important;
+    font-weight: bold;
+    margin-left: 12%;
+}
+.icons
+{
+    /* border: 1px solid red; */
+    font-size: 20px;
+    width: 12%;
+    margin-right: 2%;
+    color: gray;
+}
+nav{
+    background-color: white;
+    /* border: 2px solid blue; */
+}
+.dropdown:hover .dropdown-menu
+{
+    z-index: 5555 !important;
+    display:block
+}
+.menu1{
+    width: 84.477rem;
+    margin-left: -34.7rem;
+}
+.menu2{
+    margin-left: -39.25rem;
+}
+.menu3{
+    margin-left: -45.25rem;
+}
+.menu4{
+    margin-left: -49.75rem;
+}
+.menuu{
+    margin-left: -5.5rem;
+}
+.ul{
+    margin-left: 18%;
+    width: 58%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.rel{
+    position: relative;
+}
+.btn-div1{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 39%;
+    top: 78vh;
+    z-index: 222;
+}
+.btnn:hover{
+    color: white;
+    background-color: #BFD730;
+}
+.do{
+    height: 28vh;
+}
+.edit>img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.edit{
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid; */
+}
+.look{
+    /* border: 1px solid; */
+    overflow: hidden;
+    position: relative;
+}
+.edit:hover>img{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.look:hover>img{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.look>img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.main-clc>p{
+    font-size: 1.5rem;
+}
+/* .main1-clc{
+    width: 92%;
+    position: relative;
+    left: 5%;
+} */
+.click{
+    width: 20%;
+}
+.imageSize{
+    margin-top: -2rem;
+}
+.scrol{
+    height: 70vh;
+    width: 100%;
+}
+.click1{
+    width: 40%;
+}
+.brand-row2{
+    padding: 2.5% 10rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.brand-row3{
+    margin-top: 2rem;
+}
+.brandpara1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    color: #828282;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.brandpara2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #4f4f4f;
+    line-height: 3.1rem;
+    margin-top: 1rem;
+}
+
+.brandpara3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: #707070;
+    margin-top: 1rem;
+}
+
+.brandpara4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #707070;
+}
+.emailInp{
+    width: 23rem;
+    height: 4rem;
+    padding-left: 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    color: #000;
+    border: 1px solid #BBBDBF;
+    margin-top: -1.5rem;
+}
+
+.emailInp::placeholder{
+    color: #828282;
+}
+
+.emailInp:focus{
+    outline: none;
+}
+
+.subscribeBtn{
+    width: 12rem;
+    height: 4rem;
+    background-color: #B2C123;
+    color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2rem;
+    transition: all .3s;
+}
+
+.subscribeBtn:hover{
+    cursor: pointer;
+    background-color: #656e15;
+}
+
+.subscribeBtn:focus{
+    outline: none;
+}
+
+.newLetterDiv{
+    height: 12rem;
+}
+
+.brandIconContainer{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 7.8rem;
+    margin: auto;
+}
+
+.footerImg1{
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.footerImg2{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.footerImg3{
+    width: 3.7rem;
+    height: 3.5rem;
+}
+
+.footerItemsDiv{
+    width: 100%;
+    height: auto;
+    padding: 3rem 5rem !important;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+.footerItemsChildDiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10rem;
+    box-sizing: border-box;
+}
+
+.footerItemsChildDiv > p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 3rem;
+    line-height: 1.2rem;
+    transition-duration: all .3s;
+}
+
+.footerItemsChildDiv > p:hover{
+    text-decoration: underline;
+    color: #B2C123;
+    cursor: pointer;
+}
+
+.footerCopyRightDiv{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #404040;
+    overflow: hidden;
+}
+
+.footerCopyRightChildDiv{
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem !important;
+    padding-left: 17.5rem !important;
+    box-sizing: border-box;
+}
+
+.footerCopyRightChildDiv > p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+.filter{
+    height: 500px;
+    width: 17%;
+    margin-left: 5%;
+    position: sticky;
+    top: 0;
+    /* border: 10px solid; */
+}
+.cardsdiv{
+    height: auto;
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
+}
+.mainclc{
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
